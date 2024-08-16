@@ -167,7 +167,7 @@ public class Main {
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *                      EJEMPLO                      *");
                                 System.out.println("        *                                                   *");
-                                System.out.println("        *   'double pi = 3.141592653589793;'                               *");
+                                System.out.println("        *   'double pi = 3.141592653589793;'                *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
