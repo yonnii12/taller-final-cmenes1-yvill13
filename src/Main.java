@@ -470,8 +470,66 @@ public class Main {
 
                     break;
                 case 10:
+                    do {
+                        System.out.println("\n");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *                  BUCLE FOR                        *");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *       1.  Explicacion FOR.                        *");
+                        System.out.println("        *       2.  Ejemplo FOR.                            *");
+                        System.out.println("        *       3.  ATRAS                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *****************************************************");
+                        System.out.print("\n Ingrese el número de la opción que desea ver: ");
+                        opcionSubMenu = scanner.nextInt();
+                        switch (opcionSubMenu) {
+
+                            case 1:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *******************************************************");
+                                System.out.println("        *                  EXPLICACION FOR                    *");
+                                System.out.println("        *******************************************************");
+                                System.out.println("        *   se usa cuando queremos repetir un conjunto de     *");
+                                System.out.println("        *   instrucciones un número finito de veces Con for,  *");
+                                System.out.println("        *   las instrucciones se repiten el número de veces   *");
+                                System.out.println("        *   que le decimos normalmente le ponemos un número   *");
+                                System.out.println("        *   ( o el valor de una variable o una constante).    *");
+                                System.out.println("        *                                                     *");
+                                System.out.println("        *                      EJEMPLO                        *");
+                                System.out.println("        *                                                     *");
+                                System.out.println("        *        for (i = 0; i < TOTAL; i++)   {              *");
+                                System.out.println("        *              instrucciones                          *");
+                                System.out.println("        *                           }                         *");
+                                System.out.println("        *******************************************************");
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 2:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *****************************************************");
+                                System.out.println("        *                 EJEMPLO FOR                       *");
 
 
+                                System.out.println("        *****************************************************");
+                                System.out.println("        *****************************************************");
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 3:      /*Esta listo*/
+                                System.out.println("Regresando al menú principal...");
+                                break;
+                            default:
+                                System.out.println("Opcion no valida, ingrese un valor de 1 a 3");
+                                break;
+                        }
+                        } while (opcionSubMenu !=3);
 
                     break;
                 case 0:
