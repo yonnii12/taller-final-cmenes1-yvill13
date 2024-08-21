@@ -505,19 +505,29 @@ public class Main {
                                 System.out.println("        *        for (i = 0; i < TOTAL; i++)   {              *");
                                 System.out.println("        *              instrucciones                          *");
                                 System.out.println("        *                           }                         *");
-                                System.out.println("        *******************************************************");
+                                System.out.println("       ********************************************************");
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
                                 scanner.nextLine();
                                 scanner.nextLine();
                                 break;
                             case 2:      /*Esta listo*/
                                 System.out.println("\n");
-                                System.out.println("        *****************************************************");
-                                System.out.println("        *                 EJEMPLO FOR                       *");
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *                      EJEMPLO FOR                      *");
+                                System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
+                                System.out.println("        *             de los números enteros comprendidos       *");
+                                System.out.println("        *                 entre el 1 y el 10                    *");
+                                System.out.println("        *********************************************************");
+                                int suma;
+                                System.out.print("\nIngrese el número : ");
+                                suma = scanner.nextInt();
 
+                                for (int i = 0; i <= 10; i++) {
+                                    suma += i;
+                                }
+                                ;
+                                System.out.println("La sumatoria es: " + suma);
 
-                                System.out.println("        *****************************************************");
-                                System.out.println("        *****************************************************");
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
                                 scanner.nextLine();
                                 scanner.nextLine();
