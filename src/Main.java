@@ -528,11 +528,156 @@ public class Main {
 
                     break;
                 case 8:
+                    do {
+                        System.out.println("\n");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *                  BUCLE DO WHILE                       *");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *       1.  Explicacion DO WHILE.                        *");
+                        System.out.println("        *       2.  Ejemplo DO WHILE8.                            *");
+                        System.out.println("        *       3.  ATRAS                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *****************************************************");
+                        System.out.print("\n Ingrese el número de la opción que desea ver: ");
+                        opcionSubMenu = scanner.nextInt();
+                        switch (opcionSubMenu) {
+
+                            case 1:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        ************************************************************");
+                                System.out.println("        *                  EXPLICACION WHILE                       *");
+                                System.out.println("        ************************************************************");
+                                System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
+                                System.out.println("        *   omo su nombre indica (while significa mientras),       *");
+                                System.out.println("        *   epetir una acción en un bucle siempre y cuando         *");
+                                System.out.println("        *   se cumpla una condición booleana de control            *");
+                                System.out.println("        *   Es posible que el código contenido en un.              *");
+                                System.out.println("        *   bucle while no se ejecute.  porque no se cumpla        *");
+                                System.out.println("        *   la condición.No obstante, el código contenido          *");
+                                System.out.println("        *   en un bucle do-while se ejecuta, por lo menos, una vez *");
+                                System.out.println("        ************************************************************");
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 2:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *                      EJEMPLO DO WHILE                     *");
+                                System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
+                                System.out.println("        *             de los números enteros comprendidos       *");
+                                System.out.println("        *                 entre el 1 y el 10                    *");
+                                System.out.println("        *********************************************************");
+                                int suma;
+                                System.out.print("\nIngrese el número : ");
+                                suma = scanner.nextInt();
+
+                                for (int i = 0; i <= 10; i++) {
+                                    suma += i;
+                                }
+                                ;
+                                System.out.println("La sumatoria es: " + suma);
+
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 3:      /*Esta listo*/
+                                System.out.println("Regresando al menú principal...");
+                                break;
+                            default:
+                                System.out.println("Opcion no valida, ingrese un valor de 1 a 3");
+                                break;
+                        }
+                    } while (opcionSubMenu !=3);
 
 
 
                     break;
                 case 9:
+                    do {
+                        System.out.println("\n");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *                  BUCLE WHILE                       *");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *       1.  Explicacion WHILE.                        *");
+                        System.out.println("        *       2.  Ejemplo WHILE.                            *");
+                        System.out.println("        *       3.  ATRAS                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *****************************************************");
+                        System.out.print("\n Ingrese el número de la opción que desea ver: ");
+                        opcionSubMenu = scanner.nextInt();
+                        switch (opcionSubMenu) {
+
+                            case 1:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        ************************************************************");
+                                System.out.println("        *                  EXPLICACION WHILE                       *");
+                                System.out.println("        ************************************************************");
+                                System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
+                                System.out.println("        *   omo su nombre indica (while significa mientras),       *");
+                                System.out.println("        *   epetir una acción en un bucle siempre y cuando         *");
+                                System.out.println("        *   se cumpla una condición booleana de control            *");
+                                System.out.println("        *   Es posible que el código contenido en un.              *");
+                                System.out.println("        *            bucle while no se ejecute.                    *");
+                                System.out.println("        *                      EJEMPLO                             *");
+                                System.out.println("        *                                                          *");
+                                System.out.println("        *        public static void main(String args[]) {          *");
+                                System.out.println("        *             int i = 0;                                   *");
+                                System.out.println("        *                           while(i < 10) {                *");
+                                System.out.println("        *   System.out.println(\"WHILE\");  // Se ejecuta 10 veces *");
+                                System.out.println("        *                           }}                             *");
+                                System.out.println("       *************************************************************");
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 2:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *                      EJEMPLO WHILE                    *");
+                                System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
+                                System.out.println("        *             de los números enteros comprendidos       *");
+                                System.out.println("        *                 entre el 1 y el 10                    *");
+                                System.out.println("        *********************************************************");
+                                int suma;
+                                System.out.print("\nIngrese el un número : ");
+                                suma = scanner.nextInt();
+
+                                int numero = 0 ;
+                                //System.out.print("\nIngrese el segundo número : ");
+                                //numero = scanner.nextInt();
+
+                                while (numero <= 10) {
+                                    suma += numero;
+                                    numero++;
+                                }
+
+                                System.out.println("La sumatoria es: " + suma);
+
+
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 3:      /*Esta listo*/
+                                System.out.println("Regresando al menú principal...");
+                                break;
+                            default:
+                                System.out.println("Opcion no valida, ingrese un valor de 1 a 3");
+                                break;
+                        }
+                    } while (opcionSubMenu !=3);
 
 
 
@@ -590,7 +735,7 @@ public class Main {
                                 System.out.print("\nIngrese el número : ");
                                 suma = scanner.nextInt();
 
-                                for (int i = 0; i <= 10; i++) {
+                                for (int i = 0; i <= 10000000; i++) {
                                     suma += i;
                                 }
                                 ;
