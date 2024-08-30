@@ -655,7 +655,7 @@ public class Main {
                             case 1:      /*Esta listo*/
                                 System.out.println("\n");
                                 System.out.println("        ************************************************************");
-                                System.out.println("        *                  EXPLICACION WHILE                       *");
+                                System.out.println("        *                  EXPLICACION DO WHILE                       *");
                                 System.out.println("        ************************************************************");
                                 System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
                                 System.out.println("        *   omo su nombre indica (while significa mientras),       *");
