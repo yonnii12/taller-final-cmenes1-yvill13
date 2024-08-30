@@ -603,7 +603,7 @@ public class Main {
                             case 4:      /*Esta listo*/
                                 System.out.println("\n");
                                 System.out.println("        *****************************************************");
-                                System.out.println("        *             EJEMPLO IF, ELSE IF y ELSE            *");
+                                System.out.println("        *            PROGRAMA IF, ELSE IF y ELSE            *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *                                                   *");
@@ -613,8 +613,6 @@ public class Main {
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
 
-
-                                // EXPLICACION DEL EJEMPLO IF, ELSE IF Y ELSE
 
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
                                 scanner.nextLine();
@@ -633,11 +631,9 @@ public class Main {
                         System.out.println("        *                      SWITCH                       *");
                         System.out.println("        *****************************************************");
                         System.out.println("        *                                                   *");
-                        System.out.println("        *       1.  Explicacion IF.                         *");
-                        System.out.println("        *       2.  Explicacion ELSE IF.                    *");
-                        System.out.println("        *       3.  Explicacion ELSE.                       *");
-                        System.out.println("        *       4.  Programa IF, ELSE IF, ELSE.             *");
-                        System.out.println("        *       5.  Atras.                                  *");
+                        System.out.println("        *       1.  Explicacion SWITCH.                     *");
+                        System.out.println("        *       2.  Programa SWITCH.                        *");
+                        System.out.println("        *       3.  Atras.                                  *");
                         System.out.println("        *                                                   *");
                         System.out.println("        *****************************************************");
                         System.out.print("\n Ingrese el número de la opción que desea ver: ");
@@ -647,21 +643,28 @@ public class Main {
                             case 1:
                                 System.out.println("\n");
                                 System.out.println("        *****************************************************");
-                                System.out.println("        *                   EXPLICACION IF                  *");
+                                System.out.println("        *                 EXPLICACION SWITCH                *");
                                 System.out.println("        *****************************************************");
                                 System.out.println("        *                                                   *");
-                                System.out.println("        *   En Java, una instrucción if se utiliza          *");
-                                System.out.println("        *   para tomar decisiones en el flujo de            *");
-                                System.out.println("        *   ejecución de un programa. Permite ejecutar un   *");
-                                System.out.println("        *   bloque de código solo si se cumple una          *");
-                                System.out.println("        *   condición específica.                           *");
+                                System.out.println("        *   En Java, el switch es una estructura de control *");
+                                System.out.println("        *   de flujo que permite tomar decisiones basadas   *");
+                                System.out.println("        *   en el valor de una expresión.                   *");
+                                System.out.println("        *   Es una alternativa al uso de múltiples          *");
+                                System.out.println("        *   declaraciones if-else cuando se necesita        *");
+                                System.out.println("        *   comparar una variable contra una serie          *");
+                                System.out.println("        *   de valores constantes.                          *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *           Su estructura es la siguiente:          *");
                                 System.out.println("        *                                                   *");
-                                System.out.println("        *    int x = 10;                                    *");
-                                System.out.println("        *    if (x > 5) {                                   *");
-                                System.out.println("        *        System.out.println(  \"x es mayor que 5\");  *");
-                                System.out.println("        *             }                                     *");
+                                System.out.println("        *    switch (expresión) {                           *");
+                                System.out.println("        *        case valor1:                               *");
+                                System.out.println("        *                                                   *");
+                                System.out.println("        *           break;                                  *");
+                                System.out.println("        *        case valor2:                               *");
+                                System.out.println("        *                                                   *");
+                                System.out.println("        *           break;                                  *");
+                                System.out.println("        *        default:                                   *");
+                                System.out.println("        *    }                                              *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
@@ -671,65 +674,48 @@ public class Main {
                             case 2:
                                 System.out.println("\n");
                                 System.out.println("        *****************************************************");
-                                System.out.println("        *                EXPLICACION ELSE IF                *");
-                                System.out.println("        *****************************************************");
+                                System.out.println("        *                  PROGRAMA SWITCH                  *");
                                 System.out.println("        *                                                   *");
-                                System.out.println("        *   En Java, else if se utiliza para manejar        *");
-                                System.out.println("        *   múltiples condiciones en una estructura de      *");
-                                System.out.println("        *   control de flujo después de una instrucción     *");
-                                System.out.println("        *   if inicial. Permite verificar varias            *");
-                                System.out.println("        *   condiciones secuenciales y ejecutar el bloque   *");
-                                System.out.println("        *   de código correspondiente a la primera          *");
-                                System.out.println("        *   condición que sea verdadera.                    *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *           Su estructura es la siguiente:          *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *    int x = 10;                                    *");
-                                System.out.println("        *    if (x > 15) {                                  *");
-                                System.out.println("        *        System.out.println(  \"x es mayor que 15\"); *");
-                                System.out.println("        *    } else if (x > 5) {                            *");
-                                System.out.println("        *        System.out.println( \"x es mayor que 5      *");
-                                System.out.println("        *             pero menor o igual a 15 \");           *");
-                                System.out.println("        *    } else if (x > 0) {                            *");
-                                System.out.println("        *        System.out.println( \"x es mayor que 0      *");
-                                System.out.println("        *             pero menor o igual a 5 \");            *");
-                                System.out.println("        *    } else {                                       *");
-                                System.out.println("        *        System.out.println( \"x es menor o          *");
-                                System.out.println("        *             igual a 0 \");                         *");
-                                System.out.println("        *    }                                              *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
+                                System.out.println("        *   El programa realizado, utilizara una            *");
+                                System.out.println("        *   estructura Switch en la cual le solicitara al   *");
+                                System.out.println("        *   usuario ingresar una calificacion del 1 al 10   *");
+                                System.out.println("        *   y le retornara la calificacion homologada a     *");
+                                System.out.println("        *   letras.                                          *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
-                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
-                                scanner.nextLine();
-                                scanner.nextLine();
-                                break;
-                            case 3:
-                                System.out.println("\n");
-                                System.out.println("        *****************************************************");
-                                System.out.println("        *                  EXPLICACION ELSE                 *");
-                                System.out.println("        *****************************************************");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *   En Java, el else se utiliza en una estructura   *");
-                                System.out.println("        *   de control de flujo if-else para proporcionar   *");
-                                System.out.println("        *   una opción alternativa cuando la condición      *");
-                                System.out.println("        *   del if no se cumple. Es una forma de manejar    *");
-                                System.out.println("        *   el caso en que ninguna de las condiciones       *");
-                                System.out.println("        *   previas es verdadera.                           *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *           Su estructura es la siguiente:          *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *    int x = 8;                                     *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *    if (x > 10) {                                  *");
-                                System.out.println("        *       System.out.println(  \"x es mayor que 10\");  *");
-                                System.out.println("        *    } else {                                       *");
-                                System.out.println("        *       System.out.println(  \"x es 10 o menos\");    *");
-                                System.out.println("        *    }                                              *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *****************************************************");
+
+                                int cal;
+
+                                System.out.println("\n Para validar el programa ingrese su calificacion de 1 a 10");
+                                Scanner califica = new Scanner(System.in);
+                                cal = califica.nextInt();
+
+                                switch (cal){
+                                    case 1:
+                                    case 2:
+                                        System.out.println("Su calificacion es: F");
+                                        break;
+                                    case 3:
+                                    case 4:
+                                        System.out.println("Su calificacion es: D");
+                                        break;
+                                    case 5:
+                                    case 6:
+                                        System.out.println("Su calificacion es: C");
+                                        break;
+                                    case 7:
+                                    case 8:
+                                        System.out.println("Su calificacion es: B");
+                                        break;
+                                    case 9:
+                                    case 10:
+                                        System.out.println("Su calificacion es: A");
+                                        break;
+
+                                    default:
+                                        System.out.println("Número no válido, por favor verifique");
+                                }
+
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
                                 scanner.nextLine();
                                 scanner.nextLine();
@@ -739,8 +725,6 @@ public class Main {
                     break;
 
 
-
-                    break;
                 case 7:
 
 
