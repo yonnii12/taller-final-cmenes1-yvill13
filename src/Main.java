@@ -629,7 +629,7 @@ public class Main {
                                     } else if (edad < 0) {
                                         System.out.println("Edad inválida");
                                     } else {
-                                        System.out.println("edad muy vieja, ya estaria usted muerto");
+                                        System.out.println("edad muy vieja, ya estaria usted muerto ☠\uFE0F");
                                     }
 
                                 }
