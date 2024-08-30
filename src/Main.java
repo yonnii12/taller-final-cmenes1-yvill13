@@ -616,19 +616,22 @@ public class Main {
                                     System.out.println("\n Ingrese su edad:");
                                     int edad = scanner.nextInt();
 
-                                    if (edad > 0 && edad <= 12) {
+                                    if (edad >= 0 && edad <= 5) {
+                                        System.out.println("Usted es un bebe");
+                                    } else if (edad > 5 && edad <= 12) {
                                         System.out.println("Usted es un niño");
-                                    } else if (edad > 12 && edad <= 20) {
-                                        System.out.println("Usted es un joven");
+                                    }    else if (edad > 12 && edad <= 20) {
+                                            System.out.println("Usted es un joven");
                                     } else if (edad > 20 && edad <= 60) {
                                         System.out.println("Usted es un adulto");
-                                    } else if (edad > 60) {
+                                    } else if (edad > 60 && edad<= 150) {
                                         System.out.println("Usted es de tercera edad");
                                     } else if (edad < 0) {
-                                        System.out.println("Usted no ha nacido");
-                                    } else {
                                         System.out.println("Edad inválida");
+                                    } else {
+                                        System.out.println("edad muy vieja, ya estaria usted muerto");
                                     }
+
                                 }
 
 
