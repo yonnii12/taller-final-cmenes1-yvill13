@@ -605,13 +605,31 @@ public class Main {
                                 System.out.println("        *****************************************************");
                                 System.out.println("        *            PROGRAMA IF, ELSE IF y ELSE            *");
                                 System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
-                                System.out.println("        *                                                   *");
+                                System.out.println("        *   El programa realizado usara una estructura      *");
+                                System.out.println("        *   IF, ELSE IF, ELSE en la cual solicitara al      *");
+                                System.out.println("        *   usuario una edad y este le retornada            *");
+                                System.out.println("        *   a que grupo de edad corresponde.                *");
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
+
+                                for (int i = 0; i < 4; i++) {
+                                    System.out.println("\n Ingrese su edad:");
+                                    int edad = scanner.nextInt();
+
+                                    if (edad > 0 && edad <= 12) {
+                                        System.out.println("Usted es un niño");
+                                    } else if (edad > 12 && edad <= 20) {
+                                        System.out.println("Usted es un joven");
+                                    } else if (edad > 20 && edad <= 60) {
+                                        System.out.println("Usted es un adulto");
+                                    } else if (edad > 60) {
+                                        System.out.println("Usted es de tercera edad");
+                                    } else if (edad < 0) {
+                                        System.out.println("Usted no ha nacido");
+                                    } else {
+                                        System.out.println("Edad inválida");
+                                    }
+                                }
 
 
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
