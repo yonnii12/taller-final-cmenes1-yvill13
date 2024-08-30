@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -639,7 +640,7 @@ public class Main {
                         System.out.println("        *                  BUCLE DO WHILE                   *");
                         System.out.println("        *****************************************************");
                         System.out.println("        *       1.  Explicacion DO WHILE.                   *");
-                        System.out.println("        *       2.  Ejemplo DO WHILE8.                      *");
+                        System.out.println("        *       2.  Ejemplo DO WHILE.                      *");
                         System.out.println("        *       3.  ATRAS                                   *");
                         System.out.println("        *                                                   *");
                         System.out.println("        *                                                   *");
@@ -658,8 +659,8 @@ public class Main {
                                 System.out.println("        *                  EXPLICACION DO WHILE                       *");
                                 System.out.println("        ************************************************************");
                                 System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
-                                System.out.println("        *   omo su nombre indica (while significa mientras),       *");
-                                System.out.println("        *   epetir una acción en un bucle siempre y cuando         *");
+                                System.out.println("        *   como su nombre indica (while significa mientras),       *");
+                                System.out.println("        *   repetir una acción en un bucle siempre y cuando         *");
                                 System.out.println("        *   se cumpla una condición booleana de control            *");
                                 System.out.println("        *   Es posible que el código contenido en un.              *");
                                 System.out.println("        *   bucle while no se ejecute.  porque no se cumpla        *");
@@ -674,19 +675,34 @@ public class Main {
                                 System.out.println("\n");
                                 System.out.println("        *********************************************************");
                                 System.out.println("        *                      EJEMPLO DO WHILE                 *");
-                                System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
-                                System.out.println("        *             de los números enteros comprendidos       *");
-                                System.out.println("        *                 entre el 1 y el 10                    *");
                                 System.out.println("        *********************************************************");
-                                int suma;
-                                System.out.print("\nIngrese el número : ");
-                                suma = scanner.nextInt();
 
-                                for (int i = 0; i <= 10; i++) {
-                                    suma += i;
-                                }
-                                ;
-                                System.out.println("La sumatoria es: " + suma);
+                                Random random = new Random();
+
+
+                                // Generar un número aleatorio entre 1 y 30
+                                int numeroSecreto = random.nextInt(30) + 1;
+                                int intento;
+                                int contadorIntentos = 0;
+
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *    ¡Bienvenido al juego de adivinar el número!        *");
+                                System.out.println("        *     He elegido un número entre 1 y 30.                *");
+                                System.out.println("        *             ¡Intenta adivinarlo!                      *");
+                                System.out.println("        *********************************************************");
+                                do {
+                                    System.out.print("       *           Introduce tu intento:");
+                                    intento = scanner.nextInt();
+                                    contadorIntentos++;
+
+                                    if (intento < numeroSecreto) {
+                                        System.out.println(" * El número es mayor. Intenta de nuevo. *");
+                                    } else if (intento > numeroSecreto) {
+                                        System.out.println("* El número es menor. Intenta de nuevo.  *");
+                                    } else {
+                                        System.out.println(" \uD83C\uDF89 \uD83E\uDD73¡Felicidades! Has adivinado el número en " + contadorIntentos + " intentos. \uD83C\uDF89 \uD83E\uDD73");
+                                    }
+                                } while (intento != numeroSecreto);
 
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
                                 scanner.nextLine();
@@ -730,11 +746,9 @@ public class Main {
                                 System.out.println("        *                  EXPLICACION WHILE                       *");
                                 System.out.println("        ************************************************************");
                                 System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
-                                System.out.println("        *   omo su nombre indica (while significa mientras),       *");
-                                System.out.println("        *   epetir una acción en un bucle siempre y cuando         *");
+                                System.out.println("        *   como su nombre indica (while significa mientras)       *");
+                                System.out.println("        *   repetir una acción en un bucle siempre y cuando        *");
                                 System.out.println("        *   se cumpla una condición booleana de control            *");
-                                System.out.println("        *   Es posible que el código contenido en un.              *");
-                                System.out.println("        *            bucle while no se ejecute.                    *");
                                 System.out.println("        *                      EJEMPLO                             *");
                                 System.out.println("        *                                                          *");
                                 System.out.println("        *        public static void main(String args[]) {          *");
@@ -753,19 +767,22 @@ public class Main {
                                 System.out.println("        *                      EJEMPLO WHILE                    *");
                                 System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
                                 System.out.println("        *             de los números enteros comprendidos       *");
-                                System.out.println("        *                 entre el 1 y el 10                    *");
+                                System.out.println("        *           entre el 1 hasta el valor ingresado         *");
                                 System.out.println("        *********************************************************");
-                                int suma;
+
                                 System.out.print("\nIngrese el un número : ");
-                                suma = scanner.nextInt();
+                                int numero = scanner.nextInt();
 
-                                int numero = 0 ;
-                                //System.out.print("\nIngrese el segundo número : ");
-                                //numero = scanner.nextInt();
+                                if (numero < 1) {
+                                    System.out.println("El número debe ser mayor o igual a 1.");
+                                }
 
-                                while (numero <= 10) {
-                                    suma += numero;
-                                    numero++;
+                                int suma = 0;
+                                int contador = 1;
+
+                                while (contador <= numero) {
+                                    suma += contador;
+                                    contador++;
                                 }
 
                                 System.out.println("La sumatoria es: " + suma);
@@ -834,16 +851,20 @@ public class Main {
                                 System.out.println("        *                      EJEMPLO FOR                      *");
                                 System.out.println("        *       Digite un numero  para realizar la sumatoria    *");
                                 System.out.println("        *             de los números enteros comprendidos       *");
-                                System.out.println("        *                 entre el 1 y el 10                    *");
+                                System.out.println("        *                 entre el 1 y el valor ingresado       *");
                                 System.out.println("        *********************************************************");
-                                int suma;
-                                System.out.print("\nIngrese el número : ");
-                                suma = scanner.nextInt();
 
-                                for (int i = 0; i <= 10000000; i++) {
+                                System.out.print("\nIngrese un número entero positivo : ");
+                                int numero = scanner.nextInt();
+
+                                if (numero < 1) {
+                                    System.out.println("El número debe ser mayor o igual a 1.");
+                                }
+                                int suma = 0;
+                                for (int i = 1; i <= numero; i++) {
                                     suma += i;
                                 }
-                                ;
+
                                 System.out.println("La sumatoria es: " + suma);
 
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
