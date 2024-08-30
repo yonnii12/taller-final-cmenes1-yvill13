@@ -629,7 +629,71 @@ public class Main {
 
                     break;
                 case 7:
+                    do {
+                        System.out.println("\n");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *                  CONDICIONAL TERNARIA             *");
+                        System.out.println("        *****************************************************");
+                        System.out.println("        *       1.  Explicacion TERNARIA.                   *");
+                        System.out.println("        *       2.  Ejemplo TERNARIA.                      *");
+                        System.out.println("        *       3.  ATRAS                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *                                                   *");
+                        System.out.println("        *****************************************************");
+                        System.out.print("\n Ingrese el número de la opción que desea ver: ");
+                        opcionSubMenu = scanner.nextInt();
+                        switch (opcionSubMenu) {
 
+                            case 1:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *************************************************************");
+                                System.out.println("        *                  EXPLICACION TERNARIA                     *");
+                                System.out.println("        *************************************************************");
+                                System.out.println("        *   el operador ternario es una forma  concisa              *");
+                                System.out.println("        *   de realizar una instrucción condicional.                *");
+                                System.out.println("        *   Es una alternativa compacta a una declaración if-else   *");
+                                System.out.println("        *   y se usa para asignar un valor a una variable           *");
+                                System.out.println("        *   basado en una condición..                               *");
+                                System.out.println("        *   La sintaxis del operador ternario es:                   *");
+                                System.out.println("        *                                                           *");
+                                System.out.println("        * variable = (condición) ? valorSiVerdadero : valorSiFalso; *");
+                                System.out.println("        *************************************************************");
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 2:      /*Esta listo*/
+                                System.out.println("\n");
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *                      EJEMPLO TERNARIA                 *");
+                                System.out.println("        *********************************************************");
+                                System.out.println("        *                Ingrese un número entero:              *");
+                                System.out.println("        *********************************************************");
+                                int numero = scanner.nextInt();
+
+                                // Usar el operador ternario para determinar si el número es par o impar
+                                String resultado = (numero % 2 == 0) ? "El número es par" : "El número es impar";
+
+                                // Mostrar el resultado
+                                System.out.println(resultado);
+
+
+                                System.out.println("\n Ingrese Enter para  volver al menu anterior");
+                                scanner.nextLine();
+                                scanner.nextLine();
+                                break;
+                            case 3:      /*Esta listo*/
+                                System.out.println("Regresando al menú principal...");
+                                break;
+                            default:
+                                System.out.println("Opcion no valida, ingrese un valor de 1 a 3");
+                                break;
+                        }
+                    } while (opcionSubMenu !=3);
 
 
                     break;
