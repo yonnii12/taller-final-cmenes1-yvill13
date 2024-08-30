@@ -617,15 +617,15 @@ public class Main {
                                     int edad = scanner.nextInt();
 
                                     if (edad >= 0 && edad <= 5) {
-                                        System.out.println("Usted es un bebe");
+                                        System.out.println("Usted es un bebe \uD83D\uDC76");
                                     } else if (edad > 5 && edad <= 12) {
-                                        System.out.println("Usted es un niño");
+                                        System.out.println("Usted es un niño \uD83D\uDC66");
                                     }    else if (edad > 12 && edad <= 20) {
-                                            System.out.println("Usted es un joven");
+                                            System.out.println("Usted es un joven \uD83E\uDDD2");
                                     } else if (edad > 20 && edad <= 60) {
-                                        System.out.println("Usted es un adulto");
+                                        System.out.println("Usted es un adulto \uD83E\uDDD4\u200D \uFE0F");
                                     } else if (edad > 60 && edad<= 150) {
-                                        System.out.println("Usted es de tercera edad");
+                                        System.out.println("Usted es de tercera edad \uD83D\uDC74");
                                     } else if (edad < 0) {
                                         System.out.println("Edad inválida");
                                     } else {
