@@ -671,7 +671,8 @@ public class Main {
                                 System.out.println("        *********************************************************");
                                 System.out.println("        *                      EJEMPLO TERNARIA                 *");
                                 System.out.println("        *********************************************************");
-                                System.out.println("        *                Ingrese un número entero:              *");
+                                System.out.println("        *                Ingrese un número entero para saber    *");
+                                System.out.println("        *                si es par o impar.                     *");
                                 System.out.println("        *********************************************************");
                                 int numero = scanner.nextInt();
 
