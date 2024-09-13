@@ -1,3 +1,5 @@
+package ejecucion;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -71,8 +73,8 @@ public class Main {
                                 System.out.println("        *                                                   *");
                                 System.out.println("        *****************************************************");
                                 System.out.println("\n Ingrese Enter para  volver al menu anterior");
-                                scanner.nextLine();
-                                scanner.nextLine();
+                                    scanner.nextLine();
+                                    scanner.nextLine();
                                 break;
                             case 2:      /*Esta listo*/
                                 System.out.println("\n");
