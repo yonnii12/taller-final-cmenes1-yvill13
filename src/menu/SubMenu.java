@@ -35,7 +35,7 @@ public class SubMenu {
         System.out.println("        *****************************************************");
         System.out.print("\n Ingrese el número de la opción que desea ver: ");
     }
-    public static void condic(){
+    public static void condi(){
         System.out.println("\n");
         System.out.println("        *****************************************************");
         System.out.println("        *                   CONDICIONALES                   *");

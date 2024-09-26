@@ -20,9 +20,6 @@ public class Detalle {
         System.out.println("        *****************************************************");
         System.out.println("\n Ingrese Enter para  volver al menu anterior");
     }
-    public static void ejemplo(){
-    }
-
     public static void expShort(){
         System.out.println("\n");
         System.out.println("        *****************************************************");
@@ -374,8 +371,89 @@ public class Detalle {
         System.out.println("        *****************************************************");
         System.out.println("\n Ingrese Enter para  volver al menu anterior");
     }
-    public static void ejemplo(){
+    public static void expIf(){
+        System.out.println("\n");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                   EXPLICACION IF                  *");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                                                   *");
+        System.out.println("        *   En Java, una instrucción if se utiliza          *");
+        System.out.println("        *   para tomar decisiones en el flujo de            *");
+        System.out.println("        *   ejecución de un programa. Permite ejecutar un   *");
+        System.out.println("        *   bloque de código solo si se cumple una          *");
+        System.out.println("        *   condición específica.                           *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           Su estructura es la siguiente:          *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *    int x = 10;                                    *");
+        System.out.println("        *    if (x > 5) {                                   *");
+        System.out.println("        *        System.out.println(  \"x es mayor que 5\");  *");
+        System.out.println("        *             }                                     *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *****************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
     }
-    public static void ejemplo(){
+    public static void expElIf(){
+
+        System.out.println("\n");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                EXPLICACION ELSE IF                *");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                                                   *");
+        System.out.println("        *   En Java, else if se utiliza para manejar        *");
+        System.out.println("        *   múltiples condiciones en una estructura de      *");
+        System.out.println("        *   control de flujo después de una instrucción     *");
+        System.out.println("        *   if inicial. Permite verificar varias            *");
+        System.out.println("        *   condiciones secuenciales y ejecutar el bloque   *");
+        System.out.println("        *   de código correspondiente a la primera          *");
+        System.out.println("        *   condición que sea verdadera.                    *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           Su estructura es la siguiente:          *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *    int x = 10;                                    *");
+        System.out.println("        *    if (x > 15) {                                  *");
+        System.out.println("        *        System.out.println(  \"x es mayor que 15\"); *");
+        System.out.println("        *    } else if (x > 5) {                            *");
+        System.out.println("        *        System.out.println( \"x es mayor que 5      *");
+        System.out.println("        *             pero menor o igual a 15 \");           *");
+        System.out.println("        *    } else if (x > 0) {                            *");
+        System.out.println("        *        System.out.println( \"x es mayor que 0      *");
+        System.out.println("        *             pero menor o igual a 5 \");            *");
+        System.out.println("        *    } else {                                       *");
+        System.out.println("        *        System.out.println( \"x es menor o          *");
+        System.out.println("        *             igual a 0 \");                         *");
+        System.out.println("        *    }                                              *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *****************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
+    public static void expEls(){
+        System.out.println("\n");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                  EXPLICACION ELSE                 *");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                                                   *");
+        System.out.println("        *   En Java, el else se utiliza en una estructura   *");
+        System.out.println("        *   de control de flujo if-else para proporcionar   *");
+        System.out.println("        *   una opción alternativa cuando la condición      *");
+        System.out.println("        *   del if no se cumple. Es una forma de manejar    *");
+        System.out.println("        *   el caso en que ninguna de las condiciones       *");
+        System.out.println("        *   previas es verdadera.                           *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           Su estructura es la siguiente:          *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *    int x = 8;                                     *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *    if (x > 10) {                                  *");
+        System.out.println("        *       System.out.println(  \"x es mayor que 10\");  *");
+        System.out.println("        *    } else {                                       *");
+        System.out.println("        *       System.out.println(  \"x es 10 o menos\");    *");
+        System.out.println("        *    }                                              *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *****************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
     }
 }
