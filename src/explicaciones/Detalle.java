@@ -456,4 +456,103 @@ public class Detalle {
         System.out.println("        *****************************************************");
         System.out.println("\n Ingrese Enter para  volver al menu anterior");
     }
+    public static void expSwitc(){
+        System.out.println("\n");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                 EXPLICACION SWITCH                *");
+        System.out.println("        *****************************************************");
+        System.out.println("        *                                                   *");
+        System.out.println("        *   En Java, el switch es una estructura de control *");
+        System.out.println("        *   de flujo que permite tomar decisiones basadas   *");
+        System.out.println("        *   en el valor de una expresión.                   *");
+        System.out.println("        *   Es una alternativa al uso de múltiples          *");
+        System.out.println("        *   declaraciones if-else cuando se necesita        *");
+        System.out.println("        *   comparar una variable contra una serie          *");
+        System.out.println("        *   de valores constantes.                          *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           Su estructura es la siguiente:          *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *    switch (expresión) {                           *");
+        System.out.println("        *        case valor1:                               *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           break;                                  *");
+        System.out.println("        *        case valor2:                               *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *           break;                                  *");
+        System.out.println("        *        default:                                   *");
+        System.out.println("        *    }                                              *");
+        System.out.println("        *                                                   *");
+        System.out.println("        *****************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
+    public static void expTern(){
+        System.out.println("\n");
+        System.out.println("        *************************************************************");
+        System.out.println("        *                  EXPLICACION TERNARIA                     *");
+        System.out.println("        *************************************************************");
+        System.out.println("        *   el operador ternario es una forma  concisa              *");
+        System.out.println("        *   de realizar una instrucción condicional.                *");
+        System.out.println("        *   Es una alternativa compacta a una declaración if-else   *");
+        System.out.println("        *   y se usa para asignar un valor a una variable           *");
+        System.out.println("        *   basado en una condición..                               *");
+        System.out.println("        *   La sintaxis del operador ternario es:                   *");
+        System.out.println("        *                                                           *");
+        System.out.println("        * variable = (condición) ? valorSiVerdadero : valorSiFalso; *");
+        System.out.println("        *************************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
+    public static void expDoW(){
+        System.out.println("\n");
+        System.out.println("        ************************************************************");
+        System.out.println("        *                  EXPLICACION DO WHILE                       *");
+        System.out.println("        ************************************************************");
+        System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
+        System.out.println("        *   como su nombre indica (while significa mientras),       *");
+        System.out.println("        *   repetir una acción en un bucle siempre y cuando         *");
+        System.out.println("        *   se cumpla una condición booleana de control            *");
+        System.out.println("        *   Es posible que el código contenido en un.              *");
+        System.out.println("        *   bucle while no se ejecute.  porque no se cumpla        *");
+        System.out.println("        *   la condición.No obstante, el código contenido          *");
+        System.out.println("        *   en un bucle do-while se ejecuta, por lo menos, una vez *");
+        System.out.println("        ************************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
+    public static void expWhi(){
+        System.out.println("\n");
+        System.out.println("        ************************************************************");
+        System.out.println("        *                  EXPLICACION WHILE                       *");
+        System.out.println("        ************************************************************");
+        System.out.println("        *   Los bucles do-while y while en Java te permiten        *");
+        System.out.println("        *   como su nombre indica (while significa mientras)       *");
+        System.out.println("        *   repetir una acción en un bucle siempre y cuando        *");
+        System.out.println("        *   se cumpla una condición booleana de control            *");
+        System.out.println("        *                      EJEMPLO                             *");
+        System.out.println("        *                                                          *");
+        System.out.println("        *        public static void main(String args[]) {          *");
+        System.out.println("        *             int i = 0;                                   *");
+        System.out.println("        *                           while(i < 10) {                *");
+        System.out.println("        *   System.out.println(\"WHILE\");  // Se ejecuta 10 veces *");
+        System.out.println("        *                           }}                             *");
+        System.out.println("       *************************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
+    public static void  expFor(){
+        System.out.println("\n");
+        System.out.println("        *******************************************************");
+        System.out.println("        *                  EXPLICACION FOR                    *");
+        System.out.println("        *******************************************************");
+        System.out.println("        *   se usa cuando queremos repetir un conjunto de     *");
+        System.out.println("        *   instrucciones un número finito de veces Con for,  *");
+        System.out.println("        *   las instrucciones se repiten el número de veces   *");
+        System.out.println("        *   que le decimos normalmente le ponemos un número   *");
+        System.out.println("        *   ( o el valor de una variable o una constante).    *");
+        System.out.println("        *                                                     *");
+        System.out.println("        *                      EJEMPLO                        *");
+        System.out.println("        *                                                     *");
+        System.out.println("        *        for (i = 0; i < TOTAL; i++)   {              *");
+        System.out.println("        *              instrucciones                          *");
+        System.out.println("        *                           }                         *");
+        System.out.println("       ********************************************************");
+        System.out.println("\n Ingrese Enter para  volver al menu anterior");
+    }
 }
